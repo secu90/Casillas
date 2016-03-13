@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_score" android:icon="@drawable/ic_history_black_18dp"
+        android:title="@string/nav_play_tittle" />
+    <item android:id="@+id/nav_play" android:icon="@android:drawable/ic_media_play"
+        android:title="@string/nav_play_tittle" />
+    <item android:id="@+id/nav_preferences" android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/nav_preferences_tittle" />
+    <item android:id="@+id/nav_help" android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/nav_help_tittle" />
+    <item android:id="@+id/nav_about" android:icon="@drawable/ic_person_pin_black_24dp"
+        android:title="@string/nav_about_tittle" />
+</menu>

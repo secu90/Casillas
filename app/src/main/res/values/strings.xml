@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Casillas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_play">Casillas</string>
+    <string name="title_activity_mi_preferences">Preferencias</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="title_activity_about_me">Sobre mi</string>
+
+    <!-- MiPreferences.class -->
+    <string name="title_song1">After mi god prot</string><!-- Song1:after_mi_god_prot_8827_hifi -->
+    <string name="title_song2">Bawa sus</string><!-- Song2: bawa_sus_bawa_sus_10236_hifi -->
+    <string name="title_song3">Jewelbea</string><!-- Song3: jewelbea_jewelbea_10592_hifi -->
+    <string name="toast_chose_song">Se ha elegido la canción "</string>
+
+    <!-- Play.class -->
+    <string name="toast_id_nav_play_text">El juego ya está en marcha</string>
+    <string name="cadena_cplay_tv_radiogroupSong">Canción: </string>
+    <string name="mPulsation_text">Número de intentos: </string>
+    <string name="p_shaked_play">Musica: Play</string>
+    <string name="p_shaked_pause">Musica: Pausada</string>
+    <string name="p_EndGame_ad_tittle">Enhorabuena</string>
+    <string name="p_EndGame_ad_msg1">Tiempo:</string>
+    <string name="p_EndGame_ad_msg2">segundos.</string>
+    <string name="p_EndGame_ad_msg3">Nºde Intentos:</string>
+    <string name="p_EndGame_ad_msg4">Pulsa continuar para salir al menú</string>
+    <string name="p_EndGame_ad_button_text">Continuar</string>
+
+    <!--  main_drawer.xml -->
+    <string name="nav_play_tittle">Jugar</string>
+    <string name="nav_preferences_tittle">Preferencias</string>
+    <string name="nav_help_tittle">Ayuda</string>
+    <string name="nav_about_tittle">Sobre Mi</string>
+
+    <!--  content_help.xml -->
+    <string name="c_help_tittle1">Funcionamiento:</string>
+    <string name="c_help_text1">El juego consiste en conseguir que todas las casillas muestren el mismo numero/color. La dificultad está en que cada ves que se pulsa una casilla, tanto esta, como las casillas contiguas cambian su posición. Esto deja varias configuraciones, por ejemplo, si la casilla pulsada tiene casillas a su alrededor como por ejemplo la casilla central, tanto la pulsada como las casillas de arriba, abajo, derecha e izquierda cambiarán su valor.</string>
+    <string name="c_help_text2">Para las casillas que se encuentran en las esquinas,cambian la propia y todas las adyacentes, de modo que para la esquina izquierda, cambiarian su posición las casillas de la derecha, la de abajo y la situada en diagonal derecha</string>
+    <string name="c_help_text3">Para las casillas que estan en los margenes, ademas de la propia, cambiarán, ademas de la propia casilla pulsada, las de los lados y de enfrente a la elegida</string>
+    <string name="c_help_tittle2">Controles:</string>
+    <string name="c_help_text4">Tiempo: El juego cuenta con un contador de tiempo, para saber cuanto se tardas en completarlo. Este se muestra en la esquina superior izquierda.</string>
+    <string name="c_help_text5">Pulsaciones: El juego cuenta con un contador de pulsaciones, para saber en cuantos intentos se consigue acabarlo. Este está situado en el la parte superior, a la derecha del contador de tiempo.</string>
+    <string name="c_help_text6">Música: El juego cuenta con opciones de reproduccion de música, arriba a la derecha de el titulo, está el botón de play para que empiece a sonar la cación que se ha elegido, si estubiera sonando, este botón se usaria para pausar la cancion. Ademas, cuenta con la función de shake (agitado), con la que hará las veces de botón de accion o pausa</string>
+
+    <!-- content_about.xml -->
+    <string name="c_about_tittle">Sobre mi</string>
+    <string name="c_about_text1">Nombre y Apellidos: Sergio Cuenca Velasco</string>
+    <string name="c_about_text2">Organización: IES San Vicente</string>
+    <string name="c_about_text3">Contacto:  </string>
+    <string name="c_about_text4">sergio.cuenca@iesdoctorbalmis.com</string>
+
+    <!-- content_preferences.xml -->
+    <string name="cprefe_b_play_text" >Jugar</string>
+    <string name="cprefe_cb_vibration" >Vibración</string>
+    <string name="cprefe_cb_sound" >Sonido</string>
+    <string name="cprefe_rb_numbers" >Números</string>
+    <string name="cprefe_rb_colours" >Colores</string>
+
+    <string name="cprefe_tv_axisX_text" >El número de columnas es de: </string>
+    <string name="cprefe_tv_axisY_text" >El número de filas es de: </string>
+    <string name="cprefe_tv_value_text" >El número de tramas es de: </string>
+    <string name="cprefe_tv_sound_off_text" >El sonido está desactivado</string>
+    <string name="cprefe_tv_sound_on_text" >El sonido está activado</string>
+    <string name="cprefe_tv_vibration_off_text" >La vibración desactivada</string>
+    <string name="cprefe_tv_vibration_on_text" >La vibración activada</string>
+    <string name="cprefe_tv_radiogroup_numbers_text" >El juego mostrará números</string>
+    <string name="cprefe_tv_radiogroup_colours_text" >El juego mostrará colores</string>
+    <string name="cprefe_tv_type_game_tittle_text" >Tipo de juego:</string>
+    <string name="cprefe_tv_songs_tittle_text" >Canciones:</string>
+    <string name="cprefe_tv_song1" >Canción 1</string>
+    <string name="cprefe_tv_song2" >Canción 2</string>
+    <string name="cprefe_tv_song3" >Canción 3</string>
+
+    <!-- AboutMe.java-->
+    <string name="activity_aboutme_subject">Contactar contigo</string>
+    <string name="activity_aboutme_messaje">Hola, quería contactar contigo para...</string>
+</resources>
